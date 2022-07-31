@@ -1,0 +1,152 @@
+
+html{
+   font-family: 'Abel', sans-serif;
+   background-image: url(wallpaper/background-images-for-websites-professional-white-12.jpg);
+}
+
+.nav{
+    
+   color: white;
+   background-color:#203852;
+   
+   height: 60px;
+   margin: 0;
+   padding:0;
+   width: 101%;
+  
+   position:fixed;
+   top: -1px;
+   right:3px;
+   
+   display:flex;
+   flex-direction:row;
+   justify-content: space-around;
+   align-items: center;
+  
+   text-decoration: none;
+   text-transform: capitalize;
+   font-size:1.5em;
+}
+.nav div a{
+   text-decoration: none;
+   color:white;
+   
+}
+.nav div{
+  
+   margin:0;
+  
+   padding: 5px;
+   margin:0 10px;
+}
+.nav div:nth-of-type(1){
+   flex-grow: 2.5;
+   margin-left:90px;
+   font-size: 40px;
+}
+.nav div:nth-of-type(5){
+   flex-grow: .2;
+   
+}
+.nav div a:hover{
+   color:rgb(29, 29, 29);
+} 
+
+    .form{
+        height:750px;
+        width:450px;
+      
+       
+     color:white;
+      
+        background-color:#5a757291; 
+        padding-top: 10px;
+        margin:20px auto;
+        margin-top:100px;
+        border-radius:20px;
+        display: block;
+        box-shadow: 10px 10px 30px rgba(155, 153, 153, 0.972);
+        
+      
+    }
+    .formContainer {
+       
+        
+        padding: 26px;
+       
+       
+        
+     }
+
+    * {box-sizing: border-box}
+input[type=text], input[type=password] {
+   width: 100%;
+   font-size: 15px;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border:none;
+   background:#fff;
+   border-radius:10px;
+}
+label{
+   font-size: 15px;
+}
+input[type=text]:focus, input[type=password]:focus {
+   background-color: #fff ;
+   outline: none;
+   border-radius:10px;
+}
+hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+}
+button {
+  
+   font-size: 15px;
+   font-weight: bold;
+   background-color: #1F1D36;
+   color: white;
+   padding: 14px 20px;
+   margin: 18px auto;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+   width:100px;
+   display:block;
+   border-radius:10px;
+}
+button:hover {
+   opacity:1;
+}
+.login{
+   padding: 14px 20px;
+   background-color: #489761;
+}
+
+.formContainer p{
+   font-size: 15px;
+}
+footer {
+   color:white;
+   display:flex;
+   justify-content:space-evenly;
+   height:200px;
+   
+   background-color: rgb(54, 54, 54);
+}
+footer div:nth-of-type(1){
+   width:40%;
+}
+ul a{
+   list-style: none;
+   text-decoration: none;
+   color: white;
+}
+h4{
+   text-align: center;
+}
+#loginform{
+   display:none;
+}

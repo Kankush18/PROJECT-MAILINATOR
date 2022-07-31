@@ -1,0 +1,248 @@
+html{
+    font-family: 'Abel', sans-serif;
+    background-image: url(wallpaper/background-images-for-websites-professional-white-12.jpg);
+    background-size: contain;
+   
+   
+}
+.nav{
+    
+    color: white;
+    background-color:#203852 ;
+    
+    height: 60px;
+    margin: 0;
+    padding:0;
+    width: 101%;
+   
+    position:fixed;
+
+    top: -1px;
+    right:3px;
+    
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+   
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size:1.5em;
+}
+.nav div a{
+    text-decoration: none;
+    color:white;
+    
+}
+.nav div{
+   
+    margin:0;
+   
+    padding: 5px;
+    margin:0 10px;
+}
+.nav div:nth-of-type(1){
+    flex-grow: 2.5;
+    margin-left:90px;
+    font-size: 40px;
+}
+.nav div:nth-of-type(5){
+    flex-grow: .2;
+    
+}
+.nav div a:hover{
+    color:rgb(29, 29, 29);
+}
+#body{
+  
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:1000px;
+    width:100%;
+    margin-top:60px;
+    
+}
+#tmail{
+    margin-top: 120px;
+    height:60vh;
+    width:300px;
+    flex-grow: .2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px dashed black;
+    border-radius:30px;
+    background-color: rgba(92, 87, 87, 0.575);
+    box-shadow: 10px 10px 20px rgba(39, 39, 39, 0.972);
+
+}
+
+
+#inbox{
+    
+    height:65vh;
+    width:600px;
+   margin-top:50px;
+   box-shadow: 10px 10px 20px rgba(39, 39, 39, 0.972);
+   background-color: rgba(92, 87, 87, 0.575);
+}
+
+#btn{
+    display: flex;
+    justify-content: space-evenly;
+    width:250px;
+    margin:0;
+    padding:5px;
+}
+img{
+    width:30px;
+}
+.button img{
+    width:30px;
+    transform: translateY(3px);
+}
+ button{
+   padding:3px 7px;
+   background-color: darkgrey;
+}
+#inbox{
+    height:500px;
+    border:2px solid black ;
+    padding:10px 50px;
+    display:block;
+   
+    
+    border-radius:30px;
+   
+}
+#empty{
+    
+    width:150px;
+   
+}
+#emailName{
+    font-size:25px;
+    width:250px;
+    border-radius:15px;
+    padding-left:20px;
+    
+}
+h2{
+    font-size:40px;
+  
+}
+#send button{
+    width:100px;
+    font-size:25px;
+    margin-top:40px;
+    border:.5px;
+    border-radius:15px;
+    padding:2px 7px;
+}
+#btn{
+    margin-top: 0;
+}
+#mailid button{
+    font-size:25px;
+    border-radius:11px;
+    border:.5px;
+    
+}
+ button:hover{
+    background-color: rgba(197, 195, 211, 0.733);
+    transform: scale(1.2);
+    
+    
+}
+footer {
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    height:200px;
+    
+    background-color: rgb(54, 54, 54);
+}
+footer div:nth-of-type(1){
+    width:40%;
+}
+ul a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+h4{
+    text-align: center;
+}
+.explain{
+    background-color: rgb(252, 248, 248);
+    color: black;
+    height: 500px;
+    /* margin-bottom: 0px; */
+}
+.block h1{
+    font-size: larger;
+}
+.block{
+    font-size: large;
+    background-color: white;
+   margin:0 auto;
+    left: 400px;
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: bolder;
+}
+
+.mail-content{
+    text-align: center;
+    margin-top:10px;
+}
+.view{
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+    box-shadow: none;
+}
+.view img{
+    background-color: none;
+    border:none;
+    box-shadow: none;
+    width:20px;
+}
+.headings{
+    font-weight: 900;
+    margin-bottom:300px;
+}
+.headings div{
+    font-weight: 900;
+    margin-bottom:30px;
+}
+.data-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    width:500px;
+
+    display: none;
+}
+.data-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.data-content div{
+    border-top:solid black 1px;
+}
+.explain{
+    margin-top :50px;
+}
+.hidden{
+    display:none;
+}
